@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.homepage {
+}
+
+.homepage__content {
+    margin: 1rem;
+}
+
+.cards {
+    display: flex;
+    gap: 1rem;
+}
+
+.card {
+}
+
+.card__container {
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.card__container__content {
+    padding: 1rem;
+}
+
+.card__container__content__image {
+}
+
+.card__container__content__image__container {
+    width: 10rem;
+}
+
+.card__container__content__main {
+    margin: 0.5rem 0 0 0;
+}
+
+.card__container__content__main--heading {
+    margin: 0;
+}
+
+.card__container__content__main--subheading {
+    margin: 0.2rem 0 0 0;
+}
