@@ -1,23 +1,37 @@
-// console.log("Your first Javascript File") // Used to print information
+/**
+ * 1. Array
+ * 2. Loops
+ * 3. Functions
+ * 4. Arrow Function
+ * 5. Objects
+ * 6. Advanced Loops
+ */
 
-// Variable
-var x = 20
-// console.log(x)
+const train = ["C1", "C2", "C3", "C4", "C5"]
 
-var y = true
-
-// Condition
-var isStudent = false
-
-// if (5 > 3) {
-//     console.log("Student exist")
-// } else if (5 > 8) {
-//     console.log("Student exist")
-// } else {
-//     console.log("Student not exist")
+// for (let i = 0; i < train.length; i++) {
+//     console.log(i)
 // }
 
-// Loop
-for (var i = 0; i < 10; i++) {
-    console.log(i)
+// function addItemToArray(item, freq = 1) {
+//     for (let i = 0; i < freq; i++) {
+//         train.push(item)
+//     }
+// }
+
+const addItemToArray = (item, freq = 1) => {
+    for (let i = 0; i < freq; i++) {
+        train.push(item)
+    }
+}
+
+addItemToArray("C6", 5)
+
+console.log("HERE", train)
+
+const celeb = {
+    name: "A",
+    age: 28,
+    city: "C",
+    awards: []
 }
